@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class MissionCard extends React.Component {
   render() {
     const { data } = this.props;
-    const { name, year, country, destination} = data;
+    const { name, year, country, destination } = data;
 
     return (
       <div data-testid="mission-card">
